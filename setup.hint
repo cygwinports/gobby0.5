@@ -1,0 +1,7 @@
+category: Editors Gnome
+requires: libatkmm1.6_1 libgcc1 libglib2.0_0 libglibmm2.4_1 libgtk3_0 libgtkmm3.0_1 libgtksourceview3.0_0 libinfgtk0.5_0 libinfinity0.5_0 libintl8 libpangomm1.4_1 libsigc2.0_0 libstdc++6 libunique3.0_0 libxml++2.6_2
+sdesc: "GNOME collaborative text editor"
+ldesc: "Gobby is a free collaborative editor. This means that it 
+provides you with the possibility to edit files simultaneously with 
+other users over a network. Developed with the GTK+ toolkit it 
+integrates nicely into the GNOME desktop environment."
