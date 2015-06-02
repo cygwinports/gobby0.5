@@ -1,0 +1,11 @@
+--- origsrc/gobby-0.5.0/code/core/preferences.cpp	2014-08-06 08:35:36.000000000 -0500
++++ src/gobby-0.5.0/code/core/preferences.cpp	2015-06-01 21:50:29.775170100 -0500
+@@ -194,7 +194,7 @@ Gobby::Preferences::Security::Security(C
+ 		// Debian and Gentoo. I don't know about other distributions.
+ 		// Maybe they need a distro-patch for this.
+ 		const std::string DEFAULT_TRUST_FILE =
+-			"/etc/ssl/certs/ca-certificates.crt";
++			"/etc/pki/tls/certs/ca-bundle.crt";
+ 		if(Glib::file_test(DEFAULT_TRUST_FILE,
+ 		                   Glib::FILE_TEST_IS_REGULAR))
+ 		{

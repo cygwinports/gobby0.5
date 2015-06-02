@@ -1,0 +1,19 @@
+inherit gnome2
+
+NAME="gobby0.5"
+VERSION=0.5.0
+RELEASE=1
+CATEGORY="Editors"
+SUMMARY="GTK+ collaborative text editor"
+DESCRIPTION="Gobby is a free collaborative editor. This means that it provides
+you with the possibility to edit files simultaneously with other users over a
+network. Developed with the GTK+ toolkit it integrates nicely into the GNOME
+desktop environment."
+HOMEPAGE="http://gobby.github.io/"
+SRC_URI="http://releases.0x539.de/gobby/gobby-${VERSION}.tar.gz"
+SRC_DIR="gobby-${VERSION}"
+PATCH_URI="0.5.0-ca-certificates.patch"
+
+REQUIRES="ca-certificates"
+
+CYGCONF_ARGS="--with-gtk3"
