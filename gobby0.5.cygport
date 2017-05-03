@@ -2,7 +2,7 @@ inherit gnome2
 
 NAME="gobby0.5"
 VERSION=0.5.0
-RELEASE=1
+RELEASE=2
 CATEGORY="Editors"
 SUMMARY="GTK+ collaborative text editor"
 DESCRIPTION="Gobby is a free collaborative editor. This means that it provides
@@ -16,4 +16,5 @@ PATCH_URI="0.5.0-ca-certificates.patch"
 
 REQUIRES="ca-certificates"
 
+CXXFLAGS+=" -std=gnu++11"
 CYGCONF_ARGS="--with-gtk3"
